@@ -3461,5 +3461,75 @@
         "observed_at": "2026-11-26T06:18:59.342398+00:00"
       }
     ]
+  },
+  "9995095": {
+    "id": "9995095",
+    "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9995095",
+    "tr_number": "2026-123223",
+    "license": "ZP75873 - CA",
+    "vin_masked": "",
+    "vin_last4": "",
+    "vehicle": "OTHER 2024 PETERBILT SEMI/TRACTOR",
+    "towed_at_raw": "11/25/26, 8:33 PM",
+    "towed_by": "ODOT",
+    "towed_from": "I-5 S",
+    "reason_raw": "ODOT-PRVT PRIVATE NON-PREFERENCE",
+    "status": "Please call",
+    "tow_company": "",
+    "tow_company_address": "21856 bents rd ne, aurora, OR",
+    "tow_company_phone": "",
+    "record_type": "tow",
+    "repossessed_by": "",
+    "repossessed_by_phone": "",
+    "license_plate": "ZP75873",
+    "license_state": "CA",
+    "agency": "OTHER",
+    "reason_category": "other",
+    "towed_at": "2026-11-25T20:33:00-08:00",
+    "geo_scope": "include",
+    "geo_evidence": "oregon_yard_only",
+    "first_seen_at": "2026-11-26T06:24:59.219563+00:00",
+    "last_seen_at": "2026-11-26T06:24:59.219563+00:00",
+    "status_history": [
+      {
+        "status": "Please call",
+        "observed_at": "2026-11-26T06:24:59.219563+00:00"
+      }
+    ]
+  },
+  "9993982": {
+    "id": "9993982",
+    "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9993982",
+    "tr_number": "2026-03349",
+    "license": "E293353 - OR",
+    "vin_masked": "",
+    "vin_last4": "",
+    "vehicle": "WHITE 2022 FORD TRANSIT CONNECT",
+    "towed_at_raw": "11/25/26, 11:07 AM",
+    "towed_by": "AGENCY TOW",
+    "towed_from": "6433 NE Tillamook St",
+    "reason_raw": "BRKDWN/RECOV/ACCDNT FLEET-BRKDWN/RECOV/ACCDNT",
+    "status": "Please call",
+    "tow_company": "",
+    "tow_company_address": "12375 SW MILLAKAN WAY, BEAVERTON , OR",
+    "tow_company_phone": "",
+    "record_type": "tow",
+    "repossessed_by": "",
+    "repossessed_by_phone": "",
+    "license_plate": "E293353",
+    "license_state": "OR",
+    "agency": "OTHER",
+    "reason_category": "other",
+    "towed_at": "2026-11-25T11:07:00-08:00",
+    "geo_scope": "include",
+    "geo_evidence": "oregon_yard_only",
+    "first_seen_at": "2026-11-26T06:24:59.219563+00:00",
+    "last_seen_at": "2026-11-26T06:24:59.219563+00:00",
+    "status_history": [
+      {
+        "status": "Please call",
+        "observed_at": "2026-11-26T06:24:59.219563+00:00"
+      }
+    ]
   }
 }
