@@ -7206,5 +7206,145 @@
         "observed_at": "2026-11-26T16:49:58.938780+00:00"
       }
     ]
+  },
+  "9990487": {
+    "id": "9990487",
+    "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9990487",
+    "tr_number": "2026-122593",
+    "license": "717RFD - OR",
+    "vin_masked": "*************6142",
+    "vin_last4": "6142",
+    "vehicle": "WHITE 2026 TOYOTA OTHER",
+    "towed_at_raw": "11/24/26, 8:39 AM",
+    "towed_by": "ODOT",
+    "towed_from": "I-84 W",
+    "reason_raw": "ODOT-PRVT PRIVATE NON-PREFERENCE",
+    "status": "RELEASED",
+    "tow_company": "21st Century Towing",
+    "tow_company_address": "8510 N Kerby Ave., Portland, OR",
+    "tow_company_phone": "+15032837788",
+    "record_type": "tow",
+    "repossessed_by": "",
+    "repossessed_by_phone": "",
+    "license_plate": "717RFD",
+    "license_state": "OR",
+    "agency": "OTHER",
+    "reason_category": "other",
+    "towed_at": "2026-11-24T08:39:00-08:00",
+    "geo_scope": "include",
+    "geo_evidence": "oregon_yard_only",
+    "first_seen_at": "2026-11-26T16:55:11.773692+00:00",
+    "last_seen_at": "2026-11-26T16:55:11.773692+00:00",
+    "status_history": [
+      {
+        "status": "RELEASED",
+        "observed_at": "2026-11-26T16:55:11.773692+00:00"
+      }
+    ]
+  },
+  "9990479": {
+    "id": "9990479",
+    "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9990479",
+    "tr_number": "2026-122593",
+    "license": "708QUA - OR",
+    "vin_masked": "*************9304",
+    "vin_last4": "9304",
+    "vehicle": "GRAY 2016 TOYOTA COROLLA",
+    "towed_at_raw": "11/24/26, 8:35 AM",
+    "towed_by": "ODOT",
+    "towed_from": "I-84 W",
+    "reason_raw": "ODOT-PRVT PRIVATE NON-PREFERENCE",
+    "status": "STORED",
+    "tow_company": "Elite - 5838 SE 111th",
+    "tow_company_address": "5838 SE 111th Ave, Portland, OR",
+    "tow_company_phone": "+15037245305",
+    "record_type": "tow",
+    "repossessed_by": "",
+    "repossessed_by_phone": "",
+    "license_plate": "708QUA",
+    "license_state": "OR",
+    "agency": "OTHER",
+    "reason_category": "other",
+    "towed_at": "2026-11-24T08:35:00-08:00",
+    "geo_scope": "include",
+    "geo_evidence": "oregon_yard_only",
+    "first_seen_at": "2026-11-26T16:55:11.773692+00:00",
+    "last_seen_at": "2026-11-26T16:55:11.773692+00:00",
+    "status_history": [
+      {
+        "status": "STORED",
+        "observed_at": "2026-11-26T16:55:11.773692+00:00"
+      }
+    ]
+  },
+  "9990464": {
+    "id": "9990464",
+    "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9990464",
+    "tr_number": "2026-02963",
+    "license": "E270983 - OR",
+    "vin_masked": "*************2412",
+    "vin_last4": "2412",
+    "vehicle": "WHITE 2017 FORD ESCAPE",
+    "towed_at_raw": "11/24/26, 8:29 AM",
+    "towed_by": "AGENCY TOW",
+    "towed_from": "12375 SW Millikan Way",
+    "reason_raw": "BRKDWN/RECOV/ACCDNT FLEET-BRKDWN/RECOV/ACCDNT",
+    "status": "Please call",
+    "tow_company": "",
+    "tow_company_address": "6848 N CUTTER CIRCLE, PORTLAND, OR",
+    "tow_company_phone": "",
+    "record_type": "tow",
+    "repossessed_by": "",
+    "repossessed_by_phone": "",
+    "license_plate": "E270983",
+    "license_state": "OR",
+    "agency": "OTHER",
+    "reason_category": "other",
+    "towed_at": "2026-11-24T08:29:00-08:00",
+    "geo_scope": "include",
+    "geo_evidence": "oregon_yard_only",
+    "first_seen_at": "2026-11-26T16:55:11.773692+00:00",
+    "last_seen_at": "2026-11-26T16:55:11.773692+00:00",
+    "status_history": [
+      {
+        "status": "Please call",
+        "observed_at": "2026-11-26T16:55:11.773692+00:00"
+      }
+    ]
+  },
+  "9990349": {
+    "id": "9990349",
+    "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9990349",
+    "tr_number": "2026-54769",
+    "license": "876BSR - OR",
+    "vin_masked": "*************7442",
+    "vin_last4": "7442",
+    "vehicle": "SILVER 2004 MAZDA TRIBUTE",
+    "towed_at_raw": "11/24/26, 7:38 AM",
+    "towed_by": "MCSO",
+    "towed_from": "NE FAIRVIEW PKWY / I84 FWY",
+    "reason_raw": "MCSO-PRVT PRIVATE",
+    "status": "STORED",
+    "tow_company": "Newhouse & Hutchins-NE Whitaker Way Suite B",
+    "tow_company_address": "14330 NE Whitaker Way, Portland, OR",
+    "tow_company_phone": "+15032364134",
+    "record_type": "tow",
+    "repossessed_by": "",
+    "repossessed_by_phone": "",
+    "license_plate": "876BSR",
+    "license_state": "OR",
+    "agency": "MCSO",
+    "reason_category": "other",
+    "towed_at": "2026-11-24T07:38:00-08:00",
+    "geo_scope": "include",
+    "geo_evidence": "oregon_yard_only",
+    "first_seen_at": "2026-11-26T16:55:11.773692+00:00",
+    "last_seen_at": "2026-11-26T16:55:11.773692+00:00",
+    "status_history": [
+      {
+        "status": "STORED",
+        "observed_at": "2026-11-26T16:55:11.773692+00:00"
+      }
+    ]
   }
 }
