@@ -52,6 +52,9 @@ class ParserTests(unittest.TestCase):
         self.assertEqual(classify_reason("STOLEN AUTO"), "stolen_recovery")
         self.assertEqual(classify_reason("TRC 7.2.46 CONSTRUCTION ZONE"), "parking")
         self.assertEqual(classify_reason("BIKE (67) BIKE LANE (16.20.130U/PE)"), "parking")
+        self.assertEqual(classify_reason("FH (1) FIRE HYDRANT (16.20.130C130C/PE)"), "parking")
+        self.assertEqual(classify_reason("ABAN (02) ABANDONED AUTO (16.20.120P)"), "abandoned")
+        self.assertEqual(classify_reason("NPA (35) NO PARKING ANYTIME (16.20.210/PE)"), "parking")
         self.assertEqual(classify_reason("PPI PRVT PROP IMPOUND"), "private_property")
     def test_agencies(self):
         self.assertEqual(normalize_agency("TriMet Transit Police"), "TRIMET")

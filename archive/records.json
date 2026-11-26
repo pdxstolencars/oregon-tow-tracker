@@ -31,5 +31,110 @@
         "observed_at": "2026-11-26T04:09:17.705122+00:00"
       }
     ]
+  },
+  "9994658": {
+    "id": "9994658",
+    "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9994658",
+    "tr_number": "2026-51897",
+    "license": "NO PLATE - --",
+    "vin_masked": "*************0200",
+    "vin_last4": "0200",
+    "vehicle": "WHITE 2006 SUBARU OTHER",
+    "towed_at_raw": "11/25/26, 5:06 PM",
+    "towed_by": "PBOT-ABAN",
+    "towed_from": "8439 SE 70th Ave",
+    "reason_raw": "ABAN (02) ABANDONED AUTO (16.20.120P)",
+    "status": "STORED",
+    "tow_company": "SPEED14333 NE Whitaker Way",
+    "tow_company_address": "14333 NE Whitaker Way, Portland, OR",
+    "tow_company_phone": "+15032345555",
+    "record_type": "tow",
+    "repossessed_by": "",
+    "repossessed_by_phone": "",
+    "license_plate": "NO PLATE - --",
+    "license_state": "",
+    "towed_at": "2026-11-25T17:06:00-08:00",
+    "agency": "PBOT",
+    "reason_category": "abandoned",
+    "geo_scope": "include",
+    "geo_evidence": "oregon_yard_only",
+    "first_seen_at": "2026-11-26T04:45:52.684447+00:00",
+    "last_seen_at": "2026-11-26T04:45:52.684447+00:00",
+    "status_history": [
+      {
+        "status": "STORED",
+        "observed_at": "2026-11-26T04:45:52.684447+00:00"
+      }
+    ]
+  },
+  "9994651": {
+    "id": "9994651",
+    "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9994651",
+    "tr_number": "2026-11-2104",
+    "license": "NO PLATE - --",
+    "vin_masked": "*************0062",
+    "vin_last4": "0062",
+    "vehicle": "BLUE 2011 SUBARU FORESTER",
+    "towed_at_raw": "11/25/26, 4:58 PM",
+    "towed_by": "PBOT-PE",
+    "towed_from": "SE 7th Ave",
+    "reason_raw": "NPA (35) NO PARKING ANYTIME (16.20.210/PE)",
+    "status": "STORED",
+    "tow_company": "21st Century-N Kerby",
+    "tow_company_address": "8510 N Kerby, Portland, OR",
+    "tow_company_phone": "+15032837788",
+    "record_type": "tow",
+    "repossessed_by": "",
+    "repossessed_by_phone": "",
+    "license_plate": "NO PLATE - --",
+    "license_state": "",
+    "towed_at": "2026-11-25T16:58:00-08:00",
+    "agency": "PBOT",
+    "reason_category": "parking",
+    "geo_scope": "include",
+    "geo_evidence": "oregon_yard_only",
+    "first_seen_at": "2026-11-26T04:45:52.684973+00:00",
+    "last_seen_at": "2026-11-26T04:45:52.684973+00:00",
+    "status_history": [
+      {
+        "status": "STORED",
+        "observed_at": "2026-11-26T04:45:52.684973+00:00"
+      }
+    ]
+  },
+  "9994643": {
+    "id": "9994643",
+    "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9994643",
+    "tr_number": "2026-11-2106",
+    "license": "NO PLATE - --",
+    "vin_masked": "*************2488",
+    "vin_last4": "2488",
+    "vehicle": "WHITE 2012 FIAT 500",
+    "towed_at_raw": "11/25/26, 4:54 PM",
+    "towed_by": "PBOT-PE",
+    "towed_from": "NW Glisan St",
+    "reason_raw": "FH (1) FIRE HYDRANT (16.20.130C130C/PE)",
+    "status": "STORED",
+    "tow_company": "21st Century-N Kerby",
+    "tow_company_address": "8510 N Kerby, Portland, OR",
+    "tow_company_phone": "+15032837788",
+    "record_type": "tow",
+    "repossessed_by": "",
+    "repossessed_by_phone": "",
+    "license_plate": "NO PLATE - --",
+    "license_state": "",
+    "towed_at": "2026-11-25T16:54:00-08:00",
+    "agency": "PBOT",
+    "reason_category": "parking",
+    "geo_scope": "include",
+    "geo_evidence": "oregon_yard_only",
+    "first_seen_at": "2026-11-26T04:45:52.685281+00:00",
+    "last_seen_at": "2026-11-26T04:45:52.685281+00:00",
+    "status_history": [
+      {
+        "status": "STORED",
+        "observed_at": "2026-11-26T04:45:52.685281+00:00"
+      }
+    ]
   }
 }
