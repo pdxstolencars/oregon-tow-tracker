@@ -11,6 +11,13 @@
   const agencyLabel = {PPB:'Portland Police',MCSO:'Multnomah Sheriff',TRIMET:'TriMet / Transit Police',PORT_POLICE:'Port of Portland Police',PBOT:'PBOT',OTHER:'Other / unknown'};
   const html = value => String(value ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const norm = value => String(value ?? '').toUpperCase().replace(/[^A-Z0-9]/g,'');
+  const vinLastFour = record => {
+    const known = norm(record.vin_last4);
+    if (/^[A-Z0-9]{4}$/.test(known)) return known;
+    const full = norm(record.vin);
+    return /^[A-HJ-NPR-Z0-9]{17}$/.test(full) ? full.slice(-4) : '';
+  };
+  const maskedVin = record => vinLastFour(record) ? '••••' + vinLastFour(record) : 'Not available';
   const parsedDate = record => new Date(record.towed_at || record.towed_at_raw || 0);
   const showDate = rec => {
     const d = parsedDate(rec);
@@ -60,7 +67,7 @@
   function card(r) {
     const plate = [r.license_plate,r.license_state].filter(Boolean).join(' · ') || 'Unknown plate';
     return `<article class="record"><div>
-      <div class="record-title">${html(r.vehicle || 'Unknown vehicle')}<small>${html(plate)} · AutoReturn #${html(r.id)}</small></div>
+      <div class="record-title">${html(r.vehicle || 'Unknown vehicle')}<small>${html(plate)} · VIN ${html(maskedVin(r))} · AutoReturn #${html(r.id)}</small></div>
       <div class="record-meta"><span>◷ ${html(showDate(r))}</span><span>◆ ${html(agencyLabel[r.agency] || r.towed_by || 'Unknown agency')}</span><span>● ${html(r.status || 'Unknown status')}</span></div>
       </div><div class="record-actions">${pill(r)}<button data-history="${html(r.id)}">View tow history →</button></div>
       <div class="record-data"><div><strong>Reason listed</strong>${html(r.reason_raw || 'Not provided')}</div><div><strong>Towed from</strong>${html(r.towed_from || 'Not provided')}</div><div><strong>Tow company / yard</strong>${html(r.tow_company || 'Not provided')}</div></div></article>`;
@@ -93,11 +100,12 @@
     const title = r.vehicle || 'Vehicle record';
     const plate = [r.license_plate, r.license_state].filter(Boolean).join(' · ') || 'Unknown plate';
     $('detailContent').innerHTML = `<h2 id="detailTitle" class="detail-title">${html(title)}</h2>
-      <p class="detail-subtitle">License ${html(plate)} · VIN ${html(r.vin ? r.vin : r.vin_last4 ? '••••' + r.vin_last4 : 'unavailable')}</p>
+      <p class="detail-subtitle">License ${html(plate)} · VIN ${html(maskedVin(r))}</p>
       ${possible ? '<p class="notice demo">Possible history match: grouped by plate, state, and vehicle description. Plates can be reassigned; the source masks VINs. This does not confirm a single vehicle identity.</p>' : ''}
       <div class="detail-stats"><div><strong>${history.length}</strong><span>Matching tow records</span></div><div><strong>${history.filter(x=>x.reason_category==='stolen_recovery').length}</strong><span>Stolen recoveries listed</span></div><div><strong>${html(r.license_state||'—')}</strong><span>Plate state</span></div></div>
       <h3>Recorded tow timeline</h3><div class="timeline">${history.map(x=>`
       <div class="timeline-item"><strong>${html(showDate(x))}</strong> ${pill(x)}<p>${html(x.reason_raw||'Unspecified reason')} · ${html(x.status||'Unknown status')}</p>
+        ${vinLastFour(x) ? `<p class="fine">VIN ${html(maskedVin(x))}</p>` : ''}
         <p>Picked up: ${html(x.towed_from||'Location unavailable')} · ${mapAnchor(x.towed_from)}</p>
         <p>Agency: ${html(agencyLabel[x.agency]||x.towed_by||'Unknown')} · Storage: ${html(x.tow_company||'Unknown')}</p>
         ${x.tow_company_address?`<p>Storage yard: ${html(x.tow_company_address)}</p>`:''}
