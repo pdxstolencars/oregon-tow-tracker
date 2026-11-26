@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T16:55:11.773692+00:00",
+  "generated_at": "2026-11-26T17:02:16.177597+00:00",
   "records": [
     {
       "id": "9996103",
@@ -7346,6 +7346,146 @@
         {
           "status": "STORED",
           "observed_at": "2026-11-26T16:55:11.773692+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9990140",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9990140",
+      "tr_number": "P3887737",
+      "license": "186QZB - OR",
+      "vin_masked": "*************8358",
+      "vin_last4": "8358",
+      "vehicle": "GREEN 1998 TOYOTA CAMRY",
+      "towed_at_raw": "11/24/26, 5:21 AM",
+      "towed_by": "PPI",
+      "towed_from": "13801 Se Stark",
+      "reason_raw": "PPI PRVT PROP IMPOUND",
+      "status": "Please call +15032837788",
+      "tow_company": "21ST CENTURY TOWING",
+      "tow_company_address": "11237 Ne Marx Pl. , Portland, OR",
+      "tow_company_phone": "+15032837788",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "186QZB",
+      "license_state": "OR",
+      "agency": "OTHER",
+      "reason_category": "private_property",
+      "towed_at": "2026-11-24T05:21:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_yard_only",
+      "first_seen_at": "2026-11-26T17:02:16.177597+00:00",
+      "last_seen_at": "2026-11-26T17:02:16.177597+00:00",
+      "status_history": [
+        {
+          "status": "Please call +15032837788",
+          "observed_at": "2026-11-26T17:02:16.177597+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9990040",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9990040",
+      "tr_number": "2026-339382",
+      "license": "362RCF - OR",
+      "vin_masked": "*************0499",
+      "vin_last4": "0499",
+      "vehicle": "WHITE 2022 DODGE CHALLENGER",
+      "towed_at_raw": "11/24/26, 4:00 AM",
+      "towed_by": "PPB",
+      "towed_from": "NW 11TH AVE / NW COUCH ST",
+      "reason_raw": "RCVD RECOVERED STOLEN (PPB)",
+      "status": "RELEASED",
+      "tow_company": "21st Century Towing",
+      "tow_company_address": "8510 N Kerby Ave., Portland, OR",
+      "tow_company_phone": "+15032837788",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "362RCF",
+      "license_state": "OR",
+      "agency": "PPB",
+      "reason_category": "stolen_recovery",
+      "towed_at": "2026-11-24T04:00:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_yard_only",
+      "first_seen_at": "2026-11-26T17:02:16.177597+00:00",
+      "last_seen_at": "2026-11-26T17:02:16.177597+00:00",
+      "status_history": [
+        {
+          "status": "RELEASED",
+          "observed_at": "2026-11-26T17:02:16.177597+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9989833",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9989833",
+      "tr_number": "2026-339332",
+      "license": "877LGD - OR",
+      "vin_masked": "*************0404",
+      "vin_last4": "0404",
+      "vehicle": "TAN 1999 OLDSMOBILE CUTLASS",
+      "towed_at_raw": "11/24/26, 2:07 AM",
+      "towed_by": "PPB",
+      "towed_from": "SE 135TH AVE / SE STARK ST",
+      "reason_raw": "HAZ HAZARD (PPB)",
+      "status": "STORED",
+      "tow_company": "Newhouse & Hutchins-NE Whitaker Way Suite B",
+      "tow_company_address": "14330 NE Whitaker Way, Portland, OR",
+      "tow_company_phone": "+15032364134",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "877LGD",
+      "license_state": "OR",
+      "agency": "PPB",
+      "reason_category": "traffic",
+      "towed_at": "2026-11-24T02:07:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_yard_only",
+      "first_seen_at": "2026-11-26T17:02:16.177597+00:00",
+      "last_seen_at": "2026-11-26T17:02:16.177597+00:00",
+      "status_history": [
+        {
+          "status": "STORED",
+          "observed_at": "2026-11-26T17:02:16.177597+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9989807",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9989807",
+      "tr_number": "2026-339337",
+      "license": "0K1729 - OR",
+      "vin_masked": "*************0600",
+      "vin_last4": "0600",
+      "vehicle": "BLACK 2021 JEEP CHEROKEE",
+      "towed_at_raw": "11/24/26, 1:58 AM",
+      "towed_by": "PPB",
+      "towed_from": "NE MARTIN LUTHER KING JR BLVD / NE WEIDLER ST",
+      "reason_raw": "PRVT PRIVATE-POLICE",
+      "status": "STORED",
+      "tow_company": "NWNTR-10721 NE Simpson St",
+      "tow_company_address": "10721 NE Simpson St, Portland, OR",
+      "tow_company_phone": "+15032537865",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "0K1729",
+      "license_state": "OR",
+      "agency": "PPB",
+      "reason_category": "other",
+      "towed_at": "2026-11-24T01:58:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_yard_only",
+      "first_seen_at": "2026-11-26T17:02:16.177597+00:00",
+      "last_seen_at": "2026-11-26T17:02:16.177597+00:00",
+      "status_history": [
+        {
+          "status": "STORED",
+          "observed_at": "2026-11-26T17:02:16.177597+00:00"
         }
       ]
     }
