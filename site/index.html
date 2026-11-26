@@ -1,17 +1,42 @@
 <!doctype html>
-<html lang="en"><head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#111b2a"><meta name="description" content="Oregon Tow & Recovery Tracker — browse tow records, search vehicles, review tow history, and map pickup locations.">
-  <title>Oregon Tow & Recovery Tracker · PDX Stolen Cars</title>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111b2a">
+  <meta name="description" content="Oregon Tow & Recovery Tracker, a project of PDX Stolen Cars (pdxstolencars.org). Search Oregon tow records, vehicle history, and reported pickup locations.">
+  <title>Oregon Tow & Recovery Tracker · A Project of PDX Stolen Cars</title>
   <link rel="stylesheet" href="assets/style.css">
-</head><body>
+  <style>
+    /* Small attribution additions only; the site's existing styling remains intact. */
+    .brand-overline a { color: inherit; text-decoration: none; border-bottom: 1px solid rgba(114,181,255,.45); }
+    .brand-overline a:hover { border-bottom-color: currentColor; }
+    .project-attribution { margin-top: 12px !important; font-size: 14px !important; }
+    .project-attribution a { font-weight: 750; }
+    .project-footer-credit { color: var(--txt); font-size: 14px; font-weight: 650; margin-bottom: 9px; }
+    .project-footer-credit a { font-weight: 800; }
+    .project-footer-note { margin: 0; }
+  </style>
+</head>
+<body>
 <div class="shell">
   <header class="topbar">
-    <div class="brand"><span class="brand-icon">↗</span><div><span class="brand-overline">PDX STOLEN CARS</span><strong>Oregon Tow & Recovery Tracker</strong></div></div>
+    <div class="brand">
+      <span class="brand-icon">↗</span>
+      <div>
+        <span class="brand-overline">A PROJECT OF <a href="https://pdxstolencars.org/" target="_blank" rel="noopener noreferrer" aria-label="Visit PDX Stolen Cars website">PDX STOLEN CARS</a></span>
+        <strong>Oregon Tow &amp; Recovery Tracker</strong>
+      </div>
+    </div>
     <a class="top-link" href="https://search.autoreturn.com/" target="_blank" rel="noopener noreferrer">AutoReturn ↗</a>
   </header>
   <main class="container">
-    <div class="hero"><div class="hero-tag">PUBLIC RECORDS · OREGON</div><h1>Where was it towed?</h1><p>Search tow records, review vehicle history, and explore pickup locations. Oregon records only.</p></div>
+    <div class="hero">
+      <div class="hero-tag">PUBLIC RECORDS · OREGON</div>
+      <h1>Where was it towed?</h1>
+      <p>Search tow records, review vehicle history, and explore pickup locations. Oregon records only.</p>
+      <p class="project-attribution">Brought to you by <a href="https://pdxstolencars.org/" target="_blank" rel="noopener noreferrer">PDX Stolen Cars ↗</a></p>
+    </div>
     <div id="notice" class="notice" role="status">Loading available tow records…</div>
     <section class="search-panel" aria-label="Vehicle search and filters">
       <div class="search-row"><label for="q" class="visually-hidden">Search by license plate, VIN suffix, or vehicle</label><div class="search-field"><span>⌕</span><input id="q" autocomplete="off" placeholder="Search plate, VIN (last four), year, make or model…" /></div><button id="clear" class="secondary">Clear</button></div>
@@ -30,9 +55,13 @@
     <nav class="tabs" aria-label="Views"><button data-tab="all" class="active">All Oregon tows</button><button data-tab="stolen">Stolen recoveries</button><button data-tab="map">Google Maps</button></nav>
     <div id="resultsView"><div class="result-heading"><h2 id="resultTitle">Recent tow records</h2><span id="resultDescription"></span></div><div id="records" class="records"></div><div class="pager"><button id="more" class="secondary" hidden>Load more records</button></div></div>
     <div id="mapView" hidden><div class="result-heading"><h2>Tow pickup locations</h2><span>Maps show the reported “Towed From” location—not the storage lot or original theft location.</span></div><div id="map" class="map-frame" aria-label="Map of tow pickup locations"></div><div id="mapFallback" class="map-fallback"></div></div>
-    <footer>Independent archive concept · Not affiliated with AutoReturn, police, or towing agencies. A tow record is not proof of theft, ownership, or criminal conduct. Not every recovered vehicle appears in AutoReturn. <span id="updated"></span></footer>
+    <footer>
+      <div class="project-footer-credit">An independent project of <a href="https://pdxstolencars.org/" target="_blank" rel="noopener noreferrer">PDX Stolen Cars</a> · <a href="https://pdxstolencars.org/" target="_blank" rel="noopener noreferrer">pdxstolencars.org ↗</a></div>
+      <p class="project-footer-note">Not affiliated with AutoReturn, police, or towing agencies. A tow record is not proof of theft, ownership, or criminal conduct. Not every recovered vehicle appears in AutoReturn. <span id="updated"></span></p>
+    </footer>
   </main>
 </div>
-<div id="detailModal" class="modal" hidden><div class="modal-backdrop" data-close="true"></div><section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="detailTitle"><div class="modal-top"><span class="eyebrow">VEHICLE TOW HISTORY</span><button id="closeDetail" class="close" aria-label="Close vehicle history">×</button></div><div id="detailContent"></div></section></div>
+<div id="detailModal" class="modal" hidden><div class="modal-backdrop" data-close="true"></div><section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="detailTitle"><div class="modal-top"><span class="eyebrow" id="detailTitle">VEHICLE TOW HISTORY</span><button id="closeDetail" class="close" aria-label="Close vehicle history">×</button></div><div id="detailContent"></div></section></div>
 <script src="config.js"></script><script src="assets/app.js" defer></script>
-</body></html>
+</body>
+</html>
