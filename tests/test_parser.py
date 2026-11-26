@@ -51,6 +51,7 @@ class ParserTests(unittest.TestCase):
         self.assertEqual(classify_reason("IMPOUND Impounded Vehicle"), "impound")
         self.assertEqual(classify_reason("STOLEN AUTO"), "stolen_recovery")
         self.assertEqual(classify_reason("TRC 7.2.46 CONSTRUCTION ZONE"), "parking")
+        self.assertEqual(classify_reason("BIKE (67) BIKE LANE (16.20.130U/PE)"), "parking")
         self.assertEqual(classify_reason("PPI PRVT PROP IMPOUND"), "private_property")
     def test_agencies(self):
         self.assertEqual(normalize_agency("TriMet Transit Police"), "TRIMET")

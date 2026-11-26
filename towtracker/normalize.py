@@ -76,7 +76,7 @@ def classify_reason(reason: str) -> str:
         return "abandoned"
     if re.search(r"\b(?:accident|collision|crash)\b", text):
         return "collision"
-    if re.search(r"\b(?:parking|parked|construction zone|no[- ]parking|expired meter)\b", text):
+    if re.search(r"\b(?:parking|parked|construction zone|no[- ]parking|expired meter|bike lane|bus lane|fire lane)\b", text):
         return "parking"
     if re.search(r"\b(?:impound|seized|evidence hold|investigation)\b", text):
         return "impound"

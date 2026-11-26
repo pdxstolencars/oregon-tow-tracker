@@ -1,1 +1,35 @@
-{}
+{
+  "9994704": {
+    "id": "9994704",
+    "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9994704",
+    "tr_number": "2026-51194",
+    "license": "NO PLATE -",
+    "vin_masked": "",
+    "vin_last4": "",
+    "vehicle": "WHITE MOTOR HOME - GENERIC 5TH WHEEL",
+    "towed_at_raw": "11/25/26, 5:27 PM",
+    "towed_by": "PBOT-PE",
+    "towed_from": "SE 52nd Ave",
+    "reason_raw": "BIKE (67) BIKE LANE (16.20.130U/PE)",
+    "status": "TOW COMPLETED",
+    "tow_company": "Speed's Towing",
+    "tow_company_address": "14330 NE Whitaker Way, Portland, OR",
+    "tow_company_phone": "+15032345555",
+    "license_plate": "NO PLATE -",
+    "license_state": "",
+    "vin": "",
+    "towed_at": "2026-11-25T17:27:00-08:00",
+    "agency": "PBOT",
+    "reason_category": "parking",
+    "geo_scope": "include",
+    "geo_evidence": "oregon_yard_only",
+    "first_seen_at": "2026-11-26T04:09:17.705122+00:00",
+    "last_seen_at": "2026-11-26T04:09:17.705122+00:00",
+    "status_history": [
+      {
+        "status": "TOW COMPLETED",
+        "observed_at": "2026-11-26T04:09:17.705122+00:00"
+      }
+    ]
+  }
+}
