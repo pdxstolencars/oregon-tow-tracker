@@ -3741,5 +3741,145 @@
         "observed_at": "2026-11-26T06:34:22.218938+00:00"
       }
     ]
+  },
+  "9995192": {
+    "id": "9995192",
+    "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9995192",
+    "tr_number": "2026-341006",
+    "license": "402CFT - OR",
+    "vin_masked": "*************5385",
+    "vin_last4": "5385",
+    "vehicle": "WHITE 2003 FORD OTHER",
+    "towed_at_raw": "11/25/26, 9:18 PM",
+    "towed_by": "PPB",
+    "towed_from": "3526 SE 74th Ave",
+    "reason_raw": "NO INSURANCE (PPB) NO INSURANCE (PPB)",
+    "status": "STORED",
+    "tow_company": "21st Century-111th Ave",
+    "tow_company_address": "5643 SE 111th Ave., Portland, OR",
+    "tow_company_phone": "+15032837788",
+    "record_type": "tow",
+    "repossessed_by": "",
+    "repossessed_by_phone": "",
+    "license_plate": "402CFT",
+    "license_state": "OR",
+    "agency": "PPB",
+    "reason_category": "other",
+    "towed_at": "2026-11-25T21:18:00-08:00",
+    "geo_scope": "include",
+    "geo_evidence": "oregon_yard_only",
+    "first_seen_at": "2026-11-26T06:37:53.294317+00:00",
+    "last_seen_at": "2026-11-26T06:37:53.294317+00:00",
+    "status_history": [
+      {
+        "status": "STORED",
+        "observed_at": "2026-11-26T06:37:53.294317+00:00"
+      }
+    ]
+  },
+  "9995187": {
+    "id": "9995187",
+    "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9995187",
+    "tr_number": "2026-55139",
+    "license": "YQA130 - OR",
+    "vin_masked": "*************6055",
+    "vin_last4": "6055",
+    "vehicle": "TAN 1996 CADILLAC ELDORADO",
+    "towed_at_raw": "11/25/26, 9:17 PM",
+    "towed_by": "MCSO",
+    "towed_from": "10737 N UNION CT",
+    "reason_raw": "MCSO-PRIS PROP PRISON PROPERTY",
+    "status": "STORED",
+    "tow_company": "21st Century-N Kerby",
+    "tow_company_address": "8510 N Kerby, Portland, OR",
+    "tow_company_phone": "+15032837788",
+    "record_type": "tow",
+    "repossessed_by": "",
+    "repossessed_by_phone": "",
+    "license_plate": "YQA130",
+    "license_state": "OR",
+    "agency": "MCSO",
+    "reason_category": "other",
+    "towed_at": "2026-11-25T21:17:00-08:00",
+    "geo_scope": "include",
+    "geo_evidence": "oregon_yard_only",
+    "first_seen_at": "2026-11-26T06:37:53.294317+00:00",
+    "last_seen_at": "2026-11-26T06:37:53.294317+00:00",
+    "status_history": [
+      {
+        "status": "STORED",
+        "observed_at": "2026-11-26T06:37:53.294317+00:00"
+      }
+    ]
+  },
+  "9995110": {
+    "id": "9995110",
+    "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9995110",
+    "tr_number": "2026-340959",
+    "license": "YKH177 - OR",
+    "vin_masked": "*************2547",
+    "vin_last4": "2547",
+    "vehicle": "GOLD 2001 HONDA CIVIC",
+    "towed_at_raw": "11/25/26, 8:39 PM",
+    "towed_by": "PPB",
+    "towed_from": "10125 NE GLISAN ST",
+    "reason_raw": "DWS/DWR/NO OP (PPB) DWS/DWR/NO OP (PPB)",
+    "status": "STORED",
+    "tow_company": "Elite - 5838 SE 111th",
+    "tow_company_address": "5838 SE 111th Ave, Portland, OR",
+    "tow_company_phone": "+15037245305",
+    "record_type": "tow",
+    "repossessed_by": "",
+    "repossessed_by_phone": "",
+    "license_plate": "YKH177",
+    "license_state": "OR",
+    "agency": "PPB",
+    "reason_category": "other",
+    "towed_at": "2026-11-25T20:39:00-08:00",
+    "geo_scope": "include",
+    "geo_evidence": "oregon_yard_only",
+    "first_seen_at": "2026-11-26T06:37:53.294317+00:00",
+    "last_seen_at": "2026-11-26T06:37:53.294317+00:00",
+    "status_history": [
+      {
+        "status": "STORED",
+        "observed_at": "2026-11-26T06:37:53.294317+00:00"
+      }
+    ]
+  },
+  "9995109": {
+    "id": "9995109",
+    "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9995109",
+    "tr_number": "2026-340969",
+    "license": "NOPLATES - OR",
+    "vin_masked": "*************5667",
+    "vin_last4": "5667",
+    "vehicle": "BLACK 2008 KIA SPECTRA",
+    "towed_at_raw": "11/25/26, 8:38 PM",
+    "towed_by": "PPB",
+    "towed_from": "1024 NE 82ND AVE",
+    "reason_raw": "HAZ HAZARD (PPB)",
+    "status": "STORED",
+    "tow_company": "NWNTR-10721 NE Simpson St",
+    "tow_company_address": "10721 NE Simpson St, Portland, OR",
+    "tow_company_phone": "+15032537865",
+    "record_type": "tow",
+    "repossessed_by": "",
+    "repossessed_by_phone": "",
+    "license_plate": "NOPLATES",
+    "license_state": "OR",
+    "agency": "PPB",
+    "reason_category": "traffic",
+    "towed_at": "2026-11-25T20:38:00-08:00",
+    "geo_scope": "include",
+    "geo_evidence": "oregon_yard_only",
+    "first_seen_at": "2026-11-26T06:37:53.294317+00:00",
+    "last_seen_at": "2026-11-26T06:37:53.294317+00:00",
+    "status_history": [
+      {
+        "status": "STORED",
+        "observed_at": "2026-11-26T06:37:53.294317+00:00"
+      }
+    ]
   }
 }
