@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T05:27:01.921259+00:00",
+  "generated_at": "2026-11-26T05:33:23.662903+00:00",
   "records": [
     {
       "id": "9994704",
@@ -171,6 +171,76 @@
         {
           "status": "Please call +15032837788",
           "observed_at": "2026-11-26T05:27:01.921259+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9994574",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9994574",
+      "tr_number": "2026-11-2105",
+      "license": "NO PLATE - --",
+      "vin_masked": "",
+      "vin_last4": "",
+      "vehicle": "SILVER FORD EXPLORER",
+      "towed_at_raw": "11/25/26, 4:14 PM",
+      "towed_by": "PBOT-PE",
+      "towed_from": "SE 7th Ave",
+      "reason_raw": "NPA (35) NO PARKING ANYTIME (16.20.210/PE)",
+      "status": "TOW CANCELLED",
+      "tow_company": "Elite Towing & Recovery",
+      "tow_company_address": "12689 NE Whitaker Way, Portland, OR",
+      "tow_company_phone": "+15037245305",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "NO PLATE - --",
+      "license_state": "",
+      "agency": "PBOT",
+      "reason_category": "parking",
+      "towed_at": "2026-11-25T16:14:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_yard_only",
+      "first_seen_at": "2026-11-26T05:33:23.662903+00:00",
+      "last_seen_at": "2026-11-26T05:33:23.662903+00:00",
+      "status_history": [
+        {
+          "status": "TOW CANCELLED",
+          "observed_at": "2026-11-26T05:33:23.662903+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9994550",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9994550",
+      "tr_number": "2026-51641",
+      "license": "440GJY - OR",
+      "vin_masked": "*************4266",
+      "vin_last4": "4266",
+      "vehicle": "RED 2013 CHEVROLET CRUZE",
+      "towed_at_raw": "11/25/26, 4:01 PM",
+      "towed_by": "PBOT-ABAN",
+      "towed_from": "11411 NE Schuyler St",
+      "reason_raw": "ABAN (02) ABANDONED AUTO (16.20.120P)",
+      "status": "STORED",
+      "tow_company": "Elite - 5838 SE 111th",
+      "tow_company_address": "5838 SE 111th Ave, Portland, OR",
+      "tow_company_phone": "+15037245305",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "440GJY",
+      "license_state": "OR",
+      "agency": "PBOT",
+      "reason_category": "abandoned",
+      "towed_at": "2026-11-25T16:01:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_yard_only",
+      "first_seen_at": "2026-11-26T05:33:23.662903+00:00",
+      "last_seen_at": "2026-11-26T05:33:23.662903+00:00",
+      "status_history": [
+        {
+          "status": "STORED",
+          "observed_at": "2026-11-26T05:33:23.662903+00:00"
         }
       ]
     },
