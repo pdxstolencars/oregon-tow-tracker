@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T17:02:16.177597+00:00",
+  "generated_at": "2026-11-26T17:07:46.006262+00:00",
   "records": [
     {
       "id": "9996103",
@@ -7486,6 +7486,181 @@
         {
           "status": "STORED",
           "observed_at": "2026-11-26T17:02:16.177597+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9989646",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9989646",
+      "tr_number": "P3887397",
+      "license": "UEF668 - OR",
+      "vin_masked": "*************0429",
+      "vin_last4": "0429",
+      "vehicle": "GREEN 1995 TOYOTA CAMRY",
+      "towed_at_raw": "11/24/26, 12:51 AM",
+      "towed_by": "PPI",
+      "towed_from": "208 SE 148th Ave",
+      "reason_raw": "PPI PRVT PROP IMPOUND",
+      "status": "Please call +15034548300",
+      "tow_company": "EXECUTIVE TOWING",
+      "tow_company_address": "14330 Ne Whitaker Way, Portland, OR",
+      "tow_company_phone": "+15034548300",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "UEF668",
+      "license_state": "OR",
+      "agency": "OTHER",
+      "reason_category": "private_property",
+      "towed_at": "2026-11-24T00:51:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_yard_only",
+      "first_seen_at": "2026-11-26T17:07:46.006262+00:00",
+      "last_seen_at": "2026-11-26T17:07:46.006262+00:00",
+      "status_history": [
+        {
+          "status": "Please call +15034548300",
+          "observed_at": "2026-11-26T17:07:46.006262+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9989564",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9989564",
+      "tr_number": "2026-339285",
+      "license": "NO PLATE - --",
+      "vin_masked": "*************5421",
+      "vin_last4": "5421",
+      "vehicle": "WHITE 2013 CHEVROLET MALIBU",
+      "towed_at_raw": "11/24/26, 12:22 AM",
+      "towed_by": "PPB",
+      "towed_from": "NE 92ND AVE / NE GLISAN ST",
+      "reason_raw": "NO INSURANCE (PPB) NO INSURANCE (PPB)",
+      "status": "STORED",
+      "tow_company": "Elite - 5838 SE 111th",
+      "tow_company_address": "5838 SE 111th Ave, Portland, OR",
+      "tow_company_phone": "+15037245305",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "NO PLATE - --",
+      "license_state": "",
+      "agency": "PPB",
+      "reason_category": "other",
+      "towed_at": "2026-11-24T00:22:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_yard_only",
+      "first_seen_at": "2026-11-26T17:07:46.006262+00:00",
+      "last_seen_at": "2026-11-26T17:07:46.006262+00:00",
+      "status_history": [
+        {
+          "status": "STORED",
+          "observed_at": "2026-11-26T17:07:46.006262+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9989513",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9989513",
+      "tr_number": "2026-22856",
+      "license": "AYW7425 - WA",
+      "vin_masked": "*************4413",
+      "vin_last4": "4413",
+      "vehicle": "RED 2015 KIA SOUL",
+      "towed_at_raw": "11/24/26, 12:04 AM",
+      "towed_by": "PORT POLICE",
+      "towed_from": "NE Airport Way",
+      "reason_raw": "PORT-COURTESY PORT COURTESY",
+      "status": "STORED",
+      "tow_company": "NWNTR-10721 NE Simpson St",
+      "tow_company_address": "10721 NE Simpson St, Portland, OR",
+      "tow_company_phone": "+15032537865",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "AYW7425",
+      "license_state": "WA",
+      "agency": "PORT_POLICE",
+      "reason_category": "other",
+      "towed_at": "2026-11-24T00:04:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_yard_only",
+      "first_seen_at": "2026-11-26T17:07:46.006262+00:00",
+      "last_seen_at": "2026-11-26T17:07:46.006262+00:00",
+      "status_history": [
+        {
+          "status": "STORED",
+          "observed_at": "2026-11-26T17:07:46.006262+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9989494",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9989494",
+      "tr_number": "2026-339248",
+      "license": "735QBM - OR",
+      "vin_masked": "*************7725",
+      "vin_last4": "7725",
+      "vehicle": "WHITE 2022 AUDI Q3",
+      "towed_at_raw": "11/23/26, 11:56 PM",
+      "towed_by": "PPB",
+      "towed_from": "SE SPOKANE ST / SE 13TH AVE",
+      "reason_raw": "PRVT PRIVATE-POLICE",
+      "status": "RELEASED",
+      "tow_company": "21st Century Towing",
+      "tow_company_address": "8510 N Kerby Ave., Portland, OR",
+      "tow_company_phone": "+15032837788",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "735QBM",
+      "license_state": "OR",
+      "agency": "PPB",
+      "reason_category": "other",
+      "towed_at": "2026-11-23T23:56:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_yard_only",
+      "first_seen_at": "2026-11-26T17:07:46.006262+00:00",
+      "last_seen_at": "2026-11-26T17:07:46.006262+00:00",
+      "status_history": [
+        {
+          "status": "RELEASED",
+          "observed_at": "2026-11-26T17:07:46.006262+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9989476",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9989476",
+      "tr_number": "2026-11-1978",
+      "license": "LN4G1U - MO",
+      "vin_masked": "*************5076",
+      "vin_last4": "5076",
+      "vehicle": "WHITE 2016 DODGE GRAND CARAVAN",
+      "towed_at_raw": "11/23/26, 11:46 PM",
+      "towed_by": "PBOT-PE",
+      "towed_from": "1604 SW Clay St",
+      "reason_raw": "ILPK-HR (23) HANDICAP RAMP (16.20.130D/PE)",
+      "status": "RELEASED",
+      "tow_company": "Elite Towing & Recovery",
+      "tow_company_address": "12689 NE Whitaker Way, Portland, OR",
+      "tow_company_phone": "+15037245305",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "LN4G1U",
+      "license_state": "MO",
+      "agency": "PBOT",
+      "reason_category": "other",
+      "towed_at": "2026-11-23T23:46:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_yard_only",
+      "first_seen_at": "2026-11-26T17:07:46.006262+00:00",
+      "last_seen_at": "2026-11-26T17:07:46.006262+00:00",
+      "status_history": [
+        {
+          "status": "RELEASED",
+          "observed_at": "2026-11-26T17:07:46.006262+00:00"
         }
       ]
     }
