@@ -50,6 +50,10 @@ class ParserTests(unittest.TestCase):
     def test_stolen_is_explicit(self):
         self.assertEqual(classify_reason("IMPOUND Impounded Vehicle"), "impound")
         self.assertEqual(classify_reason("STOLEN AUTO"), "stolen_recovery")
+        self.assertEqual(classify_reason("RCVD RECOVERED STOLEN (PPB)"), "stolen_recovery")
+        self.assertEqual(classify_reason("STLN VEHICLE"), "stolen_recovery")
+        self.assertEqual(classify_reason("RCVD STLN (PPB)"), "stolen_recovery")
+        self.assertEqual(classify_reason("NOT STLN"), "needs_review")
         self.assertEqual(classify_reason("TRC 7.2.46 CONSTRUCTION ZONE"), "parking")
         self.assertEqual(classify_reason("BIKE (67) BIKE LANE (16.20.130U/PE)"), "parking")
         self.assertEqual(classify_reason("FH (1) FIRE HYDRANT (16.20.130C130C/PE)"), "parking")

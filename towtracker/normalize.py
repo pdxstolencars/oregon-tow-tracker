@@ -66,9 +66,9 @@ def normalize_agency(raw: str) -> str:
 
 def classify_reason(reason: str) -> str:
     text = (reason or "").lower()
-    if re.search(r"\b(?:not stolen|not reported stolen|possible stolen|suspected stolen)\b", text):
+    if re.search(r"\b(?:(?:not(?:\s+reported)?|possible|suspected|unconfirmed)\s+(?:stolen|stln))\b", text):
         return "needs_review"
-    if re.search(r"\bstolen\b|\btheft\s+(?:recovery|recover(?:ed|y))\b|\brecovered\s+(?:stolen|theft)\b", text):
+    if re.search(r"\b(?:stolen|stln)\b|\btheft\s+(?:recovery|recover(?:ed|y))\b|\brecovered\s+theft\b", text):
         return "stolen_recovery"
     if re.search(r"\b(?:ppi|prvt\s*prop|private\s*property)\b", text):
         return "private_property"
