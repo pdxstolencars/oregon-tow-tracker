@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T05:33:23.662903+00:00",
+  "generated_at": "2026-11-26T05:42:38.630181+00:00",
   "records": [
     {
       "id": "9994704",
@@ -245,6 +245,41 @@
       ]
     },
     {
+      "id": "9994521",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9994521",
+      "tr_number": "2026-123162",
+      "license": "CDF9045 - WA",
+      "vin_masked": "*************1942",
+      "vin_last4": "1942",
+      "vehicle": "BLUE 2017 MAZDA CX-5",
+      "towed_at_raw": "11/25/26, 3:47 PM",
+      "towed_by": "ODOT",
+      "towed_from": "I-5 S",
+      "reason_raw": "ODOT-PRVT PRIVATE NON-PREFERENCE",
+      "status": "STORED",
+      "tow_company": "21st Century-N Kerby",
+      "tow_company_address": "8510 N Kerby, Portland, OR",
+      "tow_company_phone": "+15032837788",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "CDF9045",
+      "license_state": "WA",
+      "agency": "OTHER",
+      "reason_category": "other",
+      "towed_at": "2026-11-25T15:47:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_yard_only",
+      "first_seen_at": "2026-11-26T05:42:38.630181+00:00",
+      "last_seen_at": "2026-11-26T05:42:38.630181+00:00",
+      "status_history": [
+        {
+          "status": "STORED",
+          "observed_at": "2026-11-26T05:42:38.630181+00:00"
+        }
+      ]
+    },
+    {
       "id": "9994604",
       "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9994604",
       "tr_number": "P3889870",
@@ -276,6 +311,76 @@
         {
           "status": "Please call +15032811948",
           "observed_at": "2026-11-26T05:27:01.921259+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9994466",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9994466",
+      "tr_number": "2026-50881",
+      "license": "NO PLATE - --",
+      "vin_masked": "*************6121",
+      "vin_last4": "6121",
+      "vehicle": "WHITE 1990 TRAILER-GENERIC TRAVEL TRAILER",
+      "towed_at_raw": "11/25/26, 3:12 PM",
+      "towed_by": "PBOT-GUILDS",
+      "towed_from": "7952 SE Aspen Summit Dr",
+      "reason_raw": "ABAN-PROH PROHIBITED VEHICLE (16.20.120H/PE)",
+      "status": "STORED",
+      "tow_company": "SPEED14333 NE Whitaker Way",
+      "tow_company_address": "14333 NE Whitaker Way, Portland, OR",
+      "tow_company_phone": "+15032345555",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "NO PLATE - --",
+      "license_state": "",
+      "agency": "PBOT",
+      "reason_category": "other",
+      "towed_at": "2026-11-25T15:12:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_yard_only",
+      "first_seen_at": "2026-11-26T05:42:38.630181+00:00",
+      "last_seen_at": "2026-11-26T05:42:38.630181+00:00",
+      "status_history": [
+        {
+          "status": "STORED",
+          "observed_at": "2026-11-26T05:42:38.630181+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9994463",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9994463",
+      "tr_number": "P3889832",
+      "license": "236RDJ - OR",
+      "vin_masked": "*************4615",
+      "vin_last4": "4615",
+      "vehicle": "BLUE 2012 TOYOTA PRIUS",
+      "towed_at_raw": "11/25/26, 1:36 PM",
+      "towed_by": "PPI",
+      "towed_from": "150 nw Davis st",
+      "reason_raw": "PPI PRVT PROP IMPOUND",
+      "status": "Please call +15032837788",
+      "tow_company": "21ST CENTURY TOWING",
+      "tow_company_address": "8510 N Kerby Ave, Portland, OR",
+      "tow_company_phone": "+15032837788",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "236RDJ",
+      "license_state": "OR",
+      "agency": "OTHER",
+      "reason_category": "private_property",
+      "towed_at": "2026-11-25T13:36:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_yard_only",
+      "first_seen_at": "2026-11-26T05:42:38.630181+00:00",
+      "last_seen_at": "2026-11-26T05:42:38.630181+00:00",
+      "status_history": [
+        {
+          "status": "Please call +15032837788",
+          "observed_at": "2026-11-26T05:42:38.630181+00:00"
         }
       ]
     }
