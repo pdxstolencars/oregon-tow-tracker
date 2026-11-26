@@ -1,6 +1,76 @@
 {
-  "generated_at": "2026-11-26T16:47:08.745477+00:00",
+  "generated_at": "2026-11-26T16:49:58.938780+00:00",
   "records": [
+    {
+      "id": "9996103",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9996103",
+      "tr_number": "2026-55231",
+      "license": "852RCE - OR",
+      "vin_masked": "*************4457",
+      "vin_last4": "4457",
+      "vehicle": "BLACK 2024 FORD ESCAPE",
+      "towed_at_raw": "11/26/26, 8:34 AM",
+      "towed_by": "MCSO",
+      "towed_from": "NW GRAHAM RD / NW SUNDIAL RD",
+      "reason_raw": "MCSO-DUII DUII (MCSO)",
+      "status": "STORED",
+      "tow_company": "21st Century-NE Marx",
+      "tow_company_address": "11237 NE Marx Pl, Portland, OR",
+      "tow_company_phone": "+15032837788",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "852RCE",
+      "license_state": "OR",
+      "agency": "MCSO",
+      "reason_category": "other",
+      "towed_at": "2026-11-26T08:34:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_yard_only",
+      "first_seen_at": "2026-11-26T16:49:58.938780+00:00",
+      "last_seen_at": "2026-11-26T16:49:58.938780+00:00",
+      "status_history": [
+        {
+          "status": "STORED",
+          "observed_at": "2026-11-26T16:49:58.938780+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9996095",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9996095",
+      "tr_number": "2026-341341",
+      "license": "OB5363 - OR",
+      "vin_masked": "*************1828",
+      "vin_last4": "1828",
+      "vehicle": "BLACK 2022 LAND ROVER RANGE ROVER SPORT",
+      "towed_at_raw": "11/26/26, 8:23 AM",
+      "towed_by": "PPB",
+      "towed_from": "EB I84 FWY AT / NE GRAND AVE",
+      "reason_raw": "PRVT PRIVATE-POLICE",
+      "status": "STORED",
+      "tow_company": "SPEED14333 NE Whitaker Way",
+      "tow_company_address": "14333 NE Whitaker Way, Portland, OR",
+      "tow_company_phone": "+15032345555",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "OB5363",
+      "license_state": "OR",
+      "agency": "PPB",
+      "reason_category": "other",
+      "towed_at": "2026-11-26T08:23:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_yard_only",
+      "first_seen_at": "2026-11-26T16:49:58.938780+00:00",
+      "last_seen_at": "2026-11-26T16:49:58.938780+00:00",
+      "status_history": [
+        {
+          "status": "STORED",
+          "observed_at": "2026-11-26T16:49:58.938780+00:00"
+        }
+      ]
+    },
     {
       "id": "9995989",
       "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9995989",
