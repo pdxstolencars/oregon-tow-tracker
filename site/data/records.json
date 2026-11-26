@@ -1,6 +1,111 @@
 {
-  "generated_at": "2026-11-26T06:37:53.294317+00:00",
+  "generated_at": "2026-11-26T06:40:31.041583+00:00",
   "records": [
+    {
+      "id": "9995282",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9995282",
+      "tr_number": "2026-49413",
+      "license": "NO PLATE - --",
+      "vin_masked": "",
+      "vin_last4": "",
+      "vehicle": "BLACK 2000 OTHER-NOT FOUND OTHER",
+      "towed_at_raw": "11/25/26, 9:56 PM",
+      "towed_by": "PBOT-ABAN",
+      "towed_from": "6873 N Sedro St",
+      "reason_raw": "ABAN-PROH PROHIBITED VEHICLE (16.20.120H/PE)",
+      "status": "STORED",
+      "tow_company": "SPEED14333 NE Whitaker Way",
+      "tow_company_address": "14333 NE Whitaker Way, Portland, OR",
+      "tow_company_phone": "+15032345555",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "NO PLATE - --",
+      "license_state": "",
+      "agency": "PBOT",
+      "reason_category": "other",
+      "towed_at": "2026-11-25T21:56:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_yard_only",
+      "first_seen_at": "2026-11-26T06:40:31.041583+00:00",
+      "last_seen_at": "2026-11-26T06:40:31.041583+00:00",
+      "status_history": [
+        {
+          "status": "STORED",
+          "observed_at": "2026-11-26T06:40:31.041583+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9995276",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9995276",
+      "tr_number": "2026-341034",
+      "license": "056QZM - OR",
+      "vin_masked": "*************0039",
+      "vin_last4": "0039",
+      "vehicle": "BLACK 2021 JEEP GRAND CHEROKEE",
+      "towed_at_raw": "11/25/26, 9:53 PM",
+      "towed_by": "PPB",
+      "towed_from": "NE GRAND AVE / NE MULTNOMAH ST",
+      "reason_raw": "HAZ HAZARD (PPB)",
+      "status": "STORED",
+      "tow_company": "Elite - 1550 NW Kearney",
+      "tow_company_address": "1550 NW Kearney St, Portland, OR",
+      "tow_company_phone": "+15037245305",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "056QZM",
+      "license_state": "OR",
+      "agency": "PPB",
+      "reason_category": "traffic",
+      "towed_at": "2026-11-25T21:53:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_yard_only",
+      "first_seen_at": "2026-11-26T06:40:31.041583+00:00",
+      "last_seen_at": "2026-11-26T06:40:31.041583+00:00",
+      "status_history": [
+        {
+          "status": "STORED",
+          "observed_at": "2026-11-26T06:40:31.041583+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9995213",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9995213",
+      "tr_number": "2026-340955",
+      "license": "904QUB - OR",
+      "vin_masked": "*************5307",
+      "vin_last4": "5307",
+      "vehicle": "SILVER 2015 CHEVROLET SPARK",
+      "towed_at_raw": "11/25/26, 9:27 PM",
+      "towed_by": "PPB",
+      "towed_from": "SE UMATILLA ST / SE MCLOUGHLIN BLVD",
+      "reason_raw": "PRVT PRIVATE-POLICE",
+      "status": "Please call",
+      "tow_company": "8265 SE McLoughlin Blvd, Portland,",
+      "tow_company_address": "",
+      "tow_company_phone": "",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "904QUB",
+      "license_state": "OR",
+      "agency": "PPB",
+      "reason_category": "other",
+      "towed_at": "2026-11-25T21:27:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_agency_only",
+      "first_seen_at": "2026-11-26T06:40:31.041583+00:00",
+      "last_seen_at": "2026-11-26T06:40:31.041583+00:00",
+      "status_history": [
+        {
+          "status": "Please call",
+          "observed_at": "2026-11-26T06:40:31.041583+00:00"
+        }
+      ]
+    },
     {
       "id": "9995192",
       "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9995192",
@@ -138,6 +243,41 @@
         {
           "status": "STORED",
           "observed_at": "2026-11-26T06:37:53.294317+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9995247",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9995247",
+      "tr_number": "P3890129",
+      "license": "089QME - OR",
+      "vin_masked": "*************3679",
+      "vin_last4": "3679",
+      "vehicle": "BLUE 2025 SUBARU FORESTER",
+      "towed_at_raw": "11/25/26, 8:37 PM",
+      "towed_by": "PPI",
+      "towed_from": "1135 Ne Mlk Blvd",
+      "reason_raw": "PPI PRVT PROP IMPOUND",
+      "status": "Please call +15034548300",
+      "tow_company": "EXECUTIVE TOWING",
+      "tow_company_address": "14330 NE Whitaker Way, Portland, OR",
+      "tow_company_phone": "+15034548300",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "089QME",
+      "license_state": "OR",
+      "agency": "OTHER",
+      "reason_category": "private_property",
+      "towed_at": "2026-11-25T20:37:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_yard_only",
+      "first_seen_at": "2026-11-26T06:40:31.041583+00:00",
+      "last_seen_at": "2026-11-26T06:40:31.041583+00:00",
+      "status_history": [
+        {
+          "status": "Please call +15034548300",
+          "observed_at": "2026-11-26T06:40:31.041583+00:00"
         }
       ]
     },
