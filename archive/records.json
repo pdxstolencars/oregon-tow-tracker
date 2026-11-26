@@ -4021,5 +4021,40 @@
         "observed_at": "2026-11-26T06:40:31.041583+00:00"
       }
     ]
+  },
+  "9995319": {
+    "id": "9995319",
+    "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9995319",
+    "tr_number": "2026-341046",
+    "license": "122LJZ - OR",
+    "vin_masked": "*************9271",
+    "vin_last4": "9271",
+    "vehicle": "TAN 2006 SUBARU IMPREZA",
+    "towed_at_raw": "11/25/26, 10:15 PM",
+    "towed_by": "PPB",
+    "towed_from": "NE 82ND AVE / NE EVERETT ST",
+    "reason_raw": "DWS/DWR/NO OP (PPB) DWS/DWR/NO OP (PPB)",
+    "status": "STORED",
+    "tow_company": "Elite - 5838 SE 111th",
+    "tow_company_address": "5838 SE 111th Ave, Portland, OR",
+    "tow_company_phone": "+15037245305",
+    "record_type": "tow",
+    "repossessed_by": "",
+    "repossessed_by_phone": "",
+    "license_plate": "122LJZ",
+    "license_state": "OR",
+    "agency": "PPB",
+    "reason_category": "other",
+    "towed_at": "2026-11-25T22:15:00-08:00",
+    "geo_scope": "include",
+    "geo_evidence": "oregon_yard_only",
+    "first_seen_at": "2026-11-26T06:42:42.054065+00:00",
+    "last_seen_at": "2026-11-26T06:42:42.054065+00:00",
+    "status_history": [
+      {
+        "status": "STORED",
+        "observed_at": "2026-11-26T06:42:42.054065+00:00"
+      }
+    ]
   }
 }
