@@ -1,6 +1,76 @@
 {
-  "generated_at": "2026-11-27T17:52:04.223287+00:00",
+  "generated_at": "2026-11-27T17:57:47.027042+00:00",
   "records": [
+    {
+      "id": "9997777",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9997777",
+      "tr_number": "2026-55305",
+      "license": "UO31509 - OR",
+      "vin_masked": "",
+      "vin_last4": "",
+      "vehicle": "GRAY TOYOTA",
+      "towed_at_raw": "11/27/26, 9:25 AM",
+      "towed_by": "MCSO",
+      "towed_from": "2235 NE 202ND AVE",
+      "reason_raw": "MCSO-DUII DUII (MCSO)",
+      "status": "TOW COMPLETED",
+      "tow_company": "Northwestern Towing & Recovery",
+      "tow_company_address": "10721 NE Simpson St, Portland, OR",
+      "tow_company_phone": "+15032537865",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "UO31509",
+      "license_state": "OR",
+      "agency": "MCSO",
+      "reason_category": "other",
+      "towed_at": "2026-11-27T09:25:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_yard_only",
+      "first_seen_at": "2026-11-27T17:57:47.027042+00:00",
+      "last_seen_at": "2026-11-27T17:57:47.027042+00:00",
+      "status_history": [
+        {
+          "status": "TOW COMPLETED",
+          "observed_at": "2026-11-27T17:57:47.027042+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9997735",
+      "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9997735",
+      "tr_number": "2026-342078",
+      "license": "034QUC - OR",
+      "vin_masked": "*************2977",
+      "vin_last4": "2977",
+      "vehicle": "GRAY 2024 TOYOTA TACOMA",
+      "towed_at_raw": "11/27/26, 9:11 AM",
+      "towed_by": "PPB",
+      "towed_from": "101 N Morris St",
+      "reason_raw": "RCVD RECOVERED STOLEN (PPB)",
+      "status": "STORED",
+      "tow_company": "Elite - 1550 NW Kearney",
+      "tow_company_address": "1550 NW Kearney St, Portland, OR",
+      "tow_company_phone": "+15037245305",
+      "record_type": "tow",
+      "repossessed_by": "",
+      "repossessed_by_phone": "",
+      "license_plate": "034QUC",
+      "license_state": "OR",
+      "agency": "PPB",
+      "reason_category": "stolen_recovery",
+      "towed_at": "2026-11-27T09:11:00-08:00",
+      "geo_scope": "include",
+      "geo_evidence": "oregon_yard_only",
+      "first_seen_at": "2026-11-27T17:57:47.027042+00:00",
+      "last_seen_at": "2026-11-27T17:57:47.027042+00:00",
+      "status_history": [
+        {
+          "status": "STORED",
+          "observed_at": "2026-11-27T17:57:47.027042+00:00"
+        }
+      ]
+    },
     {
       "id": "9997380",
       "source_url": "https://search.autoreturn.com/find-vehicle/details?vehicle=9997380",
